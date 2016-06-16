@@ -7,13 +7,26 @@
 //
 
 import Cocoa
+import AVFoundation
+import AVKit
+//import Speech
 
-class ViewController: NSViewController {
+class ViewController: NSViewController, NSSpeechRecognizerDelegate {
 
+  
+    let SR:NSSpeechRecognizer = NSSpeechRecognizer()!
+    var commands = ["Hey siri"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        
+        SR.commands = commands
+        SR.delegate = self
+        SR.listensInForegroundOnly = false
+        
+        SR.startListening(); print("listening")
+
     }
 
     override var representedObject: AnyObject? {
@@ -22,6 +35,11 @@ class ViewController: NSViewController {
         }
     }
 
-
+    func speechRecognizer(_ sender: NSSpeechRecognizer, didRecognizeCommand command: String) {
+        if (command as! String == "Hey siri")
+        {
+            NSWorkspace.shared().launchApplication("/Applications/Siri.app")
+        }
+    }
 }
 
