@@ -10,10 +10,6 @@
 		7B5D98131D132718009C1439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D98121D132718009C1439 /* AppDelegate.swift */; };
 		7B5D98171D132718009C1439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B5D98161D132718009C1439 /* Assets.xcassets */; };
 		7B5D981A1D132718009C1439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B5D98181D132718009C1439 /* Main.storyboard */; };
-		7B5D98441D132F6E009C1439 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5D98431D132F6E009C1439 /* Speech.framework */; };
-		7B5D98451D132FF7009C1439 /* Speech.h in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D983E1D132DF1009C1439 /* Speech.h */; };
-		7B5D98491D1334C7009C1439 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5D98481D1334C7009C1439 /* AVFoundation.framework */; };
-		7B5D984B1D133507009C1439 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5D984A1D133507009C1439 /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,12 +37,6 @@
 		7B5D98391D132B2C009C1439 /* sidebarPD.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = sidebarPD.ejs; sourceTree = "<group>"; };
 		7B5D983A1D132B2C009C1439 /* sidebarSC.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = sidebarSC.ejs; sourceTree = "<group>"; };
 		7B5D983B1D132B2C009C1439 /* startWrapper.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = startWrapper.ejs; sourceTree = "<group>"; };
-		7B5D983E1D132DF1009C1439 /* Speech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Speech.h; sourceTree = "<group>"; };
-		7B5D98401D132E53009C1439 /* HeySiriMacOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeySiriMacOS-Bridging-Header.h"; sourceTree = "<group>"; };
-		7B5D98431D132F6E009C1439 /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = ../../../../System/Library/PrivateFrameworks/Speech.framework; sourceTree = "<group>"; };
-		7B5D98461D133040009C1439 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7B5D98481D1334C7009C1439 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		7B5D984A1D133507009C1439 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B5D984B1D133507009C1439 /* AVKit.framework in Frameworks */,
-				7B5D98491D1334C7009C1439 /* AVFoundation.framework in Frameworks */,
-				7B5D98441D132F6E009C1439 /* Speech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,12 +70,10 @@
 		7B5D98111D132718009C1439 /* HeySiriMacOS */ = {
 			isa = PBXGroup;
 			children = (
-				7B5D983E1D132DF1009C1439 /* Speech.h */,
 				7B5D98121D132718009C1439 /* AppDelegate.swift */,
 				7B5D98161D132718009C1439 /* Assets.xcassets */,
 				7B5D98181D132718009C1439 /* Main.storyboard */,
 				7B5D981B1D132718009C1439 /* Info.plist */,
-				7B5D98401D132E53009C1439 /* HeySiriMacOS-Bridging-Header.h */,
 			);
 			path = HeySiriMacOS;
 			sourceTree = "<group>";
@@ -96,10 +81,6 @@
 		7B5D98211D132B2B009C1439 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7B5D984A1D133507009C1439 /* AVKit.framework */,
-				7B5D98481D1334C7009C1439 /* AVFoundation.framework */,
-				7B5D98461D133040009C1439 /* Foundation.framework */,
-				7B5D98431D132F6E009C1439 /* Speech.framework */,
 				7B5D98221D132B2C009C1439 /* views */,
 			);
 			name = Frameworks;
@@ -253,7 +234,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B5D98131D132718009C1439 /* AppDelegate.swift in Sources */,
-				7B5D98451D132FF7009C1439 /* Speech.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +397,7 @@
 				7B5D98201D132718009C1439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
