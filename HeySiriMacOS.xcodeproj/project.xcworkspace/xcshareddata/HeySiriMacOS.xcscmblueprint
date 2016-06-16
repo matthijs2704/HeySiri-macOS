@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "289B9A44F7DA80667CF6FBE3B8DA92C5C5BD8E2D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "289B9A44F7DA80667CF6FBE3B8DA92C5C5BD8E2D" : 0,
+    "DD129E15B74E71B11B3A28623D1D938E7AC9AFCE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CD5C3909-D526-4DE5-AF1D-8B9468204963",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "289B9A44F7DA80667CF6FBE3B8DA92C5C5BD8E2D" : "HeySiriMacOS\/",
+    "DD129E15B74E71B11B3A28623D1D938E7AC9AFCE" : "admin-panel\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HeySiriMacOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HeySiriMacOS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/matthijs2704\/HeySiri-macOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "289B9A44F7DA80667CF6FBE3B8DA92C5C5BD8E2D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WWDCScholars\/admin-panel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DD129E15B74E71B11B3A28623D1D938E7AC9AFCE"
+    }
+  ]
+}
