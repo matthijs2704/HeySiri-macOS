@@ -18,25 +18,6 @@
 		7B5D98161D132718009C1439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B5D98191D132718009C1439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B5D981B1D132718009C1439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B5D98251D132B2C009C1439 /* userlist.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = userlist.ejs; sourceTree = "<group>"; };
-		7B5D98261D132B2C009C1439 /* dashboard.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = dashboard.ejs; sourceTree = "<group>"; };
-		7B5D98281D132B2C009C1439 /* addPost.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = addPost.ejs; sourceTree = "<group>"; };
-		7B5D98291D132B2C009C1439 /* post.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = post.ejs; sourceTree = "<group>"; };
-		7B5D982A1D132B2C009C1439 /* posts.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = posts.ejs; sourceTree = "<group>"; };
-		7B5D982C1D132B2C009C1439 /* addScholar.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = addScholar.ejs; sourceTree = "<group>"; };
-		7B5D982D1D132B2C009C1439 /* scholar.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = scholar.ejs; sourceTree = "<group>"; };
-		7B5D982E1D132B2C009C1439 /* scholars.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = scholars.ejs; sourceTree = "<group>"; };
-		7B5D982F1D132B2C009C1439 /* layout.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = layout.ejs; sourceTree = "<group>"; };
-		7B5D98311D132B2C009C1439 /* home.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = home.ejs; sourceTree = "<group>"; };
-		7B5D98321D132B2C009C1439 /* login.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = login.ejs; sourceTree = "<group>"; };
-		7B5D98331D132B2C009C1439 /* signup.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = signup.ejs; sourceTree = "<group>"; };
-		7B5D98351D132B2C009C1439 /* endWrapper.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = endWrapper.ejs; sourceTree = "<group>"; };
-		7B5D98361D132B2C009C1439 /* head.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = head.ejs; sourceTree = "<group>"; };
-		7B5D98371D132B2C009C1439 /* scripts.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = scripts.ejs; sourceTree = "<group>"; };
-		7B5D98381D132B2C009C1439 /* sidebar.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = sidebar.ejs; sourceTree = "<group>"; };
-		7B5D98391D132B2C009C1439 /* sidebarPD.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = sidebarPD.ejs; sourceTree = "<group>"; };
-		7B5D983A1D132B2C009C1439 /* sidebarSC.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = sidebarSC.ejs; sourceTree = "<group>"; };
-		7B5D983B1D132B2C009C1439 /* startWrapper.ejs */ = {isa = PBXFileReference; lastKnownFileType = text; path = startWrapper.ejs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,84 +62,8 @@
 		7B5D98211D132B2B009C1439 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7B5D98221D132B2C009C1439 /* views */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7B5D98221D132B2C009C1439 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				7B5D98231D132B2C009C1439 /* admin */,
-				7B5D982F1D132B2C009C1439 /* layout.ejs */,
-				7B5D98301D132B2C009C1439 /* main */,
-				7B5D98341D132B2C009C1439 /* partials */,
-			);
-			name = views;
-			path = "../admin-panel/views";
-			sourceTree = "<group>";
-		};
-		7B5D98231D132B2C009C1439 /* admin */ = {
-			isa = PBXGroup;
-			children = (
-				7B5D98241D132B2C009C1439 /* adminlist */,
-				7B5D98261D132B2C009C1439 /* dashboard.ejs */,
-				7B5D98271D132B2C009C1439 /* postInfo */,
-				7B5D982B1D132B2C009C1439 /* scholarInfo */,
-			);
-			path = admin;
-			sourceTree = "<group>";
-		};
-		7B5D98241D132B2C009C1439 /* adminlist */ = {
-			isa = PBXGroup;
-			children = (
-				7B5D98251D132B2C009C1439 /* userlist.ejs */,
-			);
-			path = adminlist;
-			sourceTree = "<group>";
-		};
-		7B5D98271D132B2C009C1439 /* postInfo */ = {
-			isa = PBXGroup;
-			children = (
-				7B5D98281D132B2C009C1439 /* addPost.ejs */,
-				7B5D98291D132B2C009C1439 /* post.ejs */,
-				7B5D982A1D132B2C009C1439 /* posts.ejs */,
-			);
-			path = postInfo;
-			sourceTree = "<group>";
-		};
-		7B5D982B1D132B2C009C1439 /* scholarInfo */ = {
-			isa = PBXGroup;
-			children = (
-				7B5D982C1D132B2C009C1439 /* addScholar.ejs */,
-				7B5D982D1D132B2C009C1439 /* scholar.ejs */,
-				7B5D982E1D132B2C009C1439 /* scholars.ejs */,
-			);
-			path = scholarInfo;
-			sourceTree = "<group>";
-		};
-		7B5D98301D132B2C009C1439 /* main */ = {
-			isa = PBXGroup;
-			children = (
-				7B5D98311D132B2C009C1439 /* home.ejs */,
-				7B5D98321D132B2C009C1439 /* login.ejs */,
-				7B5D98331D132B2C009C1439 /* signup.ejs */,
-			);
-			path = main;
-			sourceTree = "<group>";
-		};
-		7B5D98341D132B2C009C1439 /* partials */ = {
-			isa = PBXGroup;
-			children = (
-				7B5D98351D132B2C009C1439 /* endWrapper.ejs */,
-				7B5D98361D132B2C009C1439 /* head.ejs */,
-				7B5D98371D132B2C009C1439 /* scripts.ejs */,
-				7B5D98381D132B2C009C1439 /* sidebar.ejs */,
-				7B5D98391D132B2C009C1439 /* sidebarPD.ejs */,
-				7B5D983A1D132B2C009C1439 /* sidebarSC.ejs */,
-				7B5D983B1D132B2C009C1439 /* startWrapper.ejs */,
-			);
-			path = partials;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,7 +257,6 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.logicbit.HeySiriMacOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "HeySiriMacOS/HeySiriMacOS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -373,7 +277,6 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.logicbit.HeySiriMacOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "HeySiriMacOS/HeySiriMacOS-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
