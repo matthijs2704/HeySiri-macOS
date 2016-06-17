@@ -27,7 +27,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSSpeechRecognizerDelegate {
             menu.addItem(NSMenuItem(title: "Resume listening", action: #selector(AppDelegate.resumeListening), keyEquivalent: "r"))
             menu.addItem(NSMenuItem(title: "Stop listening", action: #selector(AppDelegate.stopListening), keyEquivalent: "s"))
             menu.addItem(NSMenuItem.separator())
-            menu.addItem(NSMenuItem(title: "Quit Quotes", action: #selector(AppDelegate.quit), keyEquivalent: "q"))
+            menu.addItem(NSMenuItem(title: "Quit Hey Siri", action: #selector(AppDelegate.quit), keyEquivalent: "q"))
             
             statusItem.menu = menu
         }
