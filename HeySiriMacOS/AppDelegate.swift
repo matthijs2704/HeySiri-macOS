@@ -13,7 +13,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSSpeechRecognizerDelegate {
 
     let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
     let SR:NSSpeechRecognizer = NSSpeechRecognizer()!
-    var commands = ["Hey siri", "시리야"]
+    var commands = ["Hey siri", "시리야", "ヘイ シリ"]
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
@@ -65,7 +65,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSSpeechRecognizerDelegate {
     
     
     func speechRecognizer(_ sender: NSSpeechRecognizer, didRecognizeCommand command: String) {
-        if (command == commands[0] || command == commands[1])
+        if commands.contains(command)
         {
             NSWorkspace.shared().launchApplication("/Applications/Siri.app")
         }
